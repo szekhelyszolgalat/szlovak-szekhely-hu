@@ -2252,7 +2252,7 @@ body {
 }
 .cid-rsHoUVpSWA {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #465052;
 }
 @media (max-width: 767px) {
@@ -2334,4 +2334,28 @@ body {
 }
 .cid-rsHoUVpSWA .google-map[data-state="loading"] [data-state-details] {
   display: none;
+}
+.cid-s11LsGtPSo {
+  background: #465052;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+.cid-s11LsGtPSo .image-block {
+  margin: auto;
+}
+.cid-s11LsGtPSo .mbr-figure {
+  margin: 0 auto;
+}
+.cid-s11LsGtPSo figcaption {
+  position: relative;
+}
+.cid-s11LsGtPSo figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s11LsGtPSo .image-block {
+    width: 100% !important;
+  }
 }
