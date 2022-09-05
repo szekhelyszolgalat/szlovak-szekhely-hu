@@ -18,12 +18,13 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
   <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
+  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -235,7 +236,7 @@
 
             <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-7">Székhelyszolgáltatás <br>ALAP csomag</h3>
+                    <h3 class="plan-title mbr-fonts-style display-7">Székhelyszolgáltatás <br><strong>ALAP </strong>csomag</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
                         <span class="price-figure mbr-fonts-style display-2">11 €</span>
@@ -258,7 +259,7 @@
 
             <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-7">Székhelyszolgáltatás<br>PRÉMIUM csomag</h3>
+                    <h3 class="plan-title mbr-fonts-style display-7">Székhelyszolgáltatás<br><strong>PRÉMIUM </strong>csomag</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
                         <span class="price-figure mbr-fonts-style display-2">16 €</span>
@@ -283,23 +284,20 @@
 
             <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">Cégalapítás</h3>
+                    <h3 class="plan-title mbr-fonts-style display-7">Székhelyszolgáltatás <strong>EGYEDI </strong>csomag</h3>
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
-                        <span class="price-figure mbr-fonts-style display-2">439 €</span>
+                        <span class="price-figure mbr-fonts-style display-2">4 €<span style="font-weight: normal;">-tól</span></span>
                         <small class="price-term mbr-fonts-style display-7">&nbsp;</small>
                     </div>
                 </div>
                 <div class="plan-body pb-5">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-4">
-                            <li class="list-group-item"><span style="font-size: 1rem;">cégbírósági illeték megfizetése
-</span></li><li class="list-group-item"><span style="font-size: 1rem;">teljes dokumentáció elkészítése
-</span></li><li class="list-group-item"><span style="font-size: 1rem;">cég bejelentése az adóhatóság és a cégbíróság felé
-</span></li><li class="list-group-item">közjegyző általi hitelesítés, hiteles fordítás megszervezése</li>
+                            <li class="list-group-item"><span style="font-size: 1rem;">székhelyszolgáltatás + cégtábla + postaláda kihelyezése - <strong>4 € / hó</strong></span></li><li class="list-group-item"><span style="font-size: 1rem;">nem ajánlott levelek átvétele -&nbsp;<strong>3 € / hó</strong></span></li><li class="list-group-item"><span style="font-size: 1rem;">ajánlott levelek átvétele - <strong>4 € / hó</strong></span></li><li class="list-group-item">korlátlan szkennelés - <strong>3€ / hó</strong></li><li class="list-group-item">küldemények havi továbbítása szlovák címre - <strong>4 € / hó</strong></li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center pt-4"><a href="index.html#tabs3-1k" class="btn btn-primary display-4">RÉSZLETEK,<br>KÖLTSÉGEK<br></a></div>
+                    <div class="mbr-section-btn text-center pt-4"><a href="index.html#formbuilder-1l" class="btn btn-primary display-4">CSOMAG ÖSSZEÁLLÍTÁSA<br></a></div>
                 </div>
             </div>
 
@@ -309,7 +307,7 @@
                     <div class="plan-price">
                         <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
                         <span class="price-figure mbr-fonts-style display-2">
-                            2 400€</span>
+                            1 900€</span>
                         <small class="price-term mbr-fonts-style display-7">&nbsp;</small>
                     </div>
                 </div>
@@ -418,6 +416,96 @@
         </div>
     </div>
 
+</section>
+
+<section class="form cid-tgyzzKMqU1" id="formbuilder-1l">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+<!--Formbuilder Form-->
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Individuálny balík"><input type="hidden" name="email" data-form-email="true" value="Qaow6OmjhVLcrb3V/XbRtdqlUwJ9PPSJFOc3NvMZhIqkN+gfDb3QpfV6y1hafMqN0/93FaVq6RtmCSKmLIgvtD9YpL81w4NDZRSGMLdgiSEvmW2KHhqYrf78aLc/GzHy">
+<div class="form-row">
+<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Köszönjük, érdeklődését megkaptuk, munkatársaink hamarosan jelentkeznek a kitöltött dokumentumokkal!</div>
+<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+</div>
+<div class="dragArea form-row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<h4 class="mbr-fonts-style display-5">Egyedi csomag összeállítása</h4>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12">
+<p class="mbr-fonts-style display-7">Az itt megadott alapján munkatársaink kitöltik a szerződést, és emailben megküldik aláírásra.</p>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12">
+<hr>
+</div>
+<div data-for="Cégnév / Név" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<input type="text" name="Cégnév / Név" placeholder="Cégnév / Név" data-form-field="Cégnév / Név" class="form-control display-7" required="required" value="" id="Cégnév / Név-formbuilder-1l">
+</div>
+<div data-for="Email" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<input type="email" name="Email" placeholder="Email" data-form-field="Email" class="form-control display-7" required="required" value="" id="Email-formbuilder-1l">
+</div>
+<div data-for="Telefon" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<input type="tel" name="Telefon" placeholder="Telefon" pattern="*" data-form-field="Telefon" class="form-control display-7" value="" id="Telefon-formbuilder-1l">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Képviselő">
+<input type="text" name="Képviselő" placeholder="Képviselő" data-form-field="Képviselő" class="form-control display-7" value="" id="Képviselő-formbuilder-1l">
+</div>
+<div data-for="Kötelező szolgáltatások:" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div class="form-control-label">
+<label for="Kötelező szolgáltatások:-formbuilder-1l" class="mbr-fonts-style display-7">Kötelező szolgáltatások:</label>
+</div>
+<div class="form-check">
+<input type="radio" name="Kötelező szolgáltatások:" data-form-field="Kötelező szolgáltatások:" class="form-check-input display-7" value="Székhelyszolgáltatás + cégtábla + postaláda kihelyezés - 4 € / hónap" checked="checked" id="Kötelező szolgáltatások:-formbuilder-1l">
+<label class="form-check-label display-7">Székhelyszolgáltatás + cégtábla + postaláda kihelyezés - 4 € / hónap</label>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div class="form-control-label">
+<label for="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap-formbuilder-1l" class="mbr-fonts-style display-7">Választható szolgáltatások:</label>
+</div>
+<div data-for="Normál (nem ajánlott) küldemények átvétele - 3 € / hónap" class="form-check">
+<input type="checkbox" value="Yes" name="Normál (nem ajánlott) küldemények átvétele - 3 € / hónap" data-form-field="Normál (nem ajánlott) küldemények átvétele - 3 € / hónap" class="form-check-input display-7" id="Normál (nem ajánlott) küldemények átvétele - 3 € / hónap-formbuilder-1l">
+<label for="Normál (nem ajánlott) küldemények átvétele - 3 € / hónap-formbuilder-1l" class="form-check-label display-7">Normál (nem ajánlott) küldemények átvétele - 3 € / hónap</label>
+</div>
+<div data-for="Ajánlott küldemények átvétele - 4 € / hónap" class="form-check">
+<input type="checkbox" value="Yes" name="Ajánlott küldemények átvétele - 4 € / hónap" data-form-field="Ajánlott küldemények átvétele - 4 € / hónap" class="form-check-input display-7" id="Ajánlott küldemények átvétele - 4 € / hónap-formbuilder-1l">
+<label for="Ajánlott küldemények átvétele - 4 € / hónap-formbuilder-1l" class="form-check-label display-7">Ajánlott küldemények átvétele - 4 € / hónap</label>
+</div>
+<div data-for="Korlátlan levélszkennelés - 3 € / hónap" class="form-check">
+<input type="checkbox" value="Yes" name="Korlátlan levélszkennelés - 3 € / hónap" data-form-field="Korlátlan levélszkennelés - 3 € / hónap" class="form-check-input display-7" id="Korlátlan levélszkennelés - 3 € / hónap-formbuilder-1l">
+<label for="Korlátlan levélszkennelés - 3 € / hónap-formbuilder-1l" class="form-check-label display-7">Korlátlan levélszkennelés - 3 € / hónap</label>
+</div>
+<div data-for="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap" class="form-check">
+<input type="checkbox" value="Yes" name="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap" data-form-field="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap" class="form-check-input display-7" id="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap-formbuilder-1l">
+<label for="Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap-formbuilder-1l" class="form-check-label display-7">Küldemények továbbítása havonta (szlovák címre) - 4 € / hónap</label>
+</div>
+</div>
+<div data-for="Időszak:" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div class="form-control-label">
+<label for="Időszak:-formbuilder-1l" class="mbr-fonts-style display-7">Időszak:</label>
+</div>
+<div class="form-check form-check-inline">
+<input type="radio" name="Időszak:" data-form-field="Időszak:" class="form-check-input display-7" value="6 hónap" checked="checked" id="Időszak:-formbuilder-1l">
+<label class="form-check-label display-7">6 hónap</label>
+</div>
+<div class="form-check form-check-inline">
+<input type="radio" name="Időszak:" data-form-field="Időszak:" class="form-check-input display-7" value="12 hónap" id="Időszak:-formbuilder-1l">
+<label class="form-check-label display-7">12 hónap</label>
+</div>
+</div>
+<div data-for="textarea" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<textarea name="textarea" placeholder="Megjegyzés, üzenet" data-form-field="textarea" class="form-control display-7" id="textarea-formbuilder-1l"></textarea>
+</div>
+<div class="col-auto">
+<button type="submit" class="w-100 w-100 w-100 w-100 w-100 w-100 w-100 btn btn-secondary display-7">Küldés</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
+        </div>
+    </div>
 </section>
 
 <section class="tabs3 tabs cid-sCWCaTlrf2" id="tabs3-1k">
@@ -782,7 +870,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Kapcsolatfelvételi űrlap - szlovak-szekhely.hu"><input type="hidden" name="email" data-form-email="true" value="KAyRmM+4OBMP57esGj8dzXgvzbVS3yWNVWabDkD2n0wh+T8LRSxGCbE2yVJ3vr6wEiRGMoiEWf6/H/KhTNRcwo8yi47P7ZToaCqbGLA6OTE/X1otQKRJurw/ygm8CFMj">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Kapcsolatfelvételi űrlap - szlovak-szekhely.hu"><input type="hidden" name="email" data-form-email="true" value="i3NbobxzAnWhVONuzy/y//7/ZblVWxSI2YhbV3OQtlMMOoRenV4iunLD8Srd6wSiZmiE/4Vs1yw4QRnQtgbxR5HBPnyJy5Tsw0hC/OyOhF6UmBPh9YLHn8AasWrzVHdt">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Köszönjük, hogy kitöltötte, munkatársunk hamarosan felveszi Önnel a kapcsolatot megadott elérhetőségein!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -847,13 +935,13 @@
 </strong><br><a href="https://www.google.com/maps/place/Virtual+Office+Bratislava+-+virtu%C3%A1lne+s%C3%ADldo+Bratislava/@48.1497177,17.1246161,16z/data=!4m8!1m2!2m1!1svirtu%C3%A1lne+s%C3%ADdlo+bratislava+dunajsk%C3%A1+8!3m4!1s0x476c8943fcc4c063:0xacd8476c5f7a2472!8m2!3d48.1446062!4d17.1150609">811 08 Bratislava, Dunajská 8.</a><br><a href="https://www.google.com/maps/place/Virtual+Office+Bratislava+-+virtu%C3%A1lne+s%C3%ADldo+Bratislava/@48.1497177,17.1246161,16z/data=!4m8!1m2!2m1!1svirtu%C3%A1lne+s%C3%ADdlo+bratislava+dunajsk%C3%A1+8!3m4!1s0x476c8943fcc4c063:0xacd8476c5f7a2472!8m2!3d48.1446062!4d17.1150609"><br></a></p><p><strong>Email</strong><br><a href="mailto:info@virtual-office-bratislava.com">info@virtual-office-bratislava.com</a><br><a href="mailto:info@virtual-office-bratislava.com"><br></a><br><br><strong>Telefon</strong><br><a href="tel:+421 911 940 696">+421 911 940 696</a></p><p>&nbsp;</p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-4">
-                <p class="mbr-text"><strong>Nyitvatartás:&nbsp;</strong><br>H-P: 09:00 - 14:00<br>(ebédszünet: 11:30 - 12:00)<br><br><strong>Cégadatok
+                <p class="mbr-text"><strong>Nyitvatartás:&nbsp;</strong><br>H-P: 09:00 - 16:00<br>(ebédszünet: 11:30 - 12:00)<br><br><strong>Cégadatok
 </strong><br>Virtual Office Bratislava s.r.o.
 <br>IČO: 47906057 
 <br>DIČ: 2024142747<br><br><br></p>
             </div>
             <div class="col-12 col-md-6">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q=Virtuálne Sídlo Bratislava, Dunajska 8." allowfullscreen=""></iframe></div>
+                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=Virtuálne Sídlo Bratislava, Dunajska 8." allowfullscreen=""></iframe></div>
             </div>
         </div>
         
@@ -885,14 +973,14 @@
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
-  <script src="assets/mbr-tabs/mbr-tabs.js"></script>
-  <script src="assets/datatables/jquery.data-tables.min.js"></script>
-  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/formstyler/jquery.formstyler.js"></script>
   <script src="assets/formstyler/jquery.formstyler.min.js"></script>
   <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
+  <script src="assets/mbr-tabs/mbr-tabs.js"></script>
+  <script src="assets/datatables/jquery.data-tables.min.js"></script>
+  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/formoid.min.js"></script>
   
   
   
